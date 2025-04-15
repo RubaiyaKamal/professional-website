@@ -28,7 +28,7 @@ export default function Home() {
   <h2 className="text-3xl font-semibold mb-4">About Me</h2>
   
   <p className="text-gray-700 leading-relaxed mb-4">
-    I'm an AI enthusiast and Python developer currently learning Agentic AI at PIAIC. I specialize in OpenAI Agents SDK, FastAPI, Docker, Azure, and LLMs. I’ve built projects like chatbots, multi-agent workflows, and AI tools using Google Colab, Jupyter Notebook, and Streamlit. With clean UV virtual environments and a passion for automation, I aim to build intelligent, scalable AI systems for real-world impact.
+    I am an AI enthusiast and Python developer currently learning Agentic AI at PIAIC. I specialize in OpenAI Agents SDK, FastAPI, Docker, Azure, and LLMs. I have built projects like chatbots, multi-agent workflows, and AI tools using Google Colab, Jupyter Notebook, and Streamlit. With clean UV virtual environments and a passion for automation, I aim to build intelligent, scalable AI systems for real-world impact.
   </p>
 
   <div className="space-y-4 text-left text-lg mt-9">
