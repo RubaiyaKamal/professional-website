@@ -6,7 +6,7 @@ export default function ProjectsPage() {
       <Navbar />
 
 <section id="projects" className="mt-20 max-w-6xl mx-auto px-4">
-  <h2 className="text-5xl font-bold text-center mb-10">Projects</h2>
+  <h2 className="text-5xl font-bold text-center mb-10">PROJECTS</h2>
   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
     {/* Project Card 1 */}
     <div className="bg-white shadow-md rounded-xl p-6 hover:shadow-lg transition">
@@ -55,6 +55,56 @@ export default function ProjectsPage() {
         View on GitHub →
       </a>
     </div>
+    
+    {/* Project Card 4 */}
+    <div className="bg-white shadow-md rounded-xl p-6 hover:shadow-lg transition">
+      <h3 className="text-xl font-bold mb-2">Ques-Ans-Chatbot</h3>
+      <p className="text-gray-600 mb-4">
+      Developed a smart Q&A chatbot using Python and Gemini AI to provide instant, accurate responses based on user queries.
+      </p>
+      <a
+        href="https://github.com/RubaiyaKamal/ques-ans-chatbot"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-600 hover:underline"
+      >
+        View on GitHub →
+      </a>
+    </div>
+
+    {/* Project Card 5 */}
+    <div className="bg-white shadow-md rounded-xl p-6 hover:shadow-lg transition">
+      <h3 className="text-xl font-bold mb-2">Greeting Agent</h3>
+      <p className="text-gray-600 mb-4">
+      Built an intelligent Greeting Agent that responds with personalized welcome messages using Python and agent-based logic.
+      </p>
+      <a
+        href="https://github.com/RubaiyaKamal/greeting-agent"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-600 hover:underline"
+      >
+        View on GitHub →
+      </a>
+    </div>
+
+    {/* Project Card 6 */}
+    <div className="bg-white shadow-md rounded-xl p-6 hover:shadow-lg transition">
+      <h3 className="text-xl font-bold mb-2">Chatbot Authentication</h3>
+      <p className="text-gray-600 mb-4">
+      Implemented a secure chatbot with Google and GitHub OAuth authentication for personalized user access and interaction.
+      </p>
+      <a
+        href="https://github.com/RubaiyaKamal/chatbot-authentication"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-600 hover:underline"
+      >
+        View on GitHub →
+      </a>
+    </div>
+
+
   </div>
 </section>
 </div>
